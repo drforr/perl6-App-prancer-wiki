@@ -1,0 +1,9 @@
+<hr/>
+<TMPL_IF NAME=logged_in>
+  <p><a href="/admin/new">New Page</a>
+     <a href="/admin/edit/< TMPL_VAR NAME=page">Edit</a>
+     <a href="/admin/delete/< TMPL_VAR NAME=page">Delete This Page</a>
+  </p>
+</TMPL_IF>
+<p>Last modified <TMPL_VAR NAME=last_modified></p>
+<p>Return to <a href="/wiki.cgi?<TMPL_VAR NAME=return_to>"><TMPL_VAR NAME=return_to></p>

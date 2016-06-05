@@ -1,0 +1,10 @@
+= Welcome, visitors!
+
+This is some text. And some ''italic'' text.
+Why not be '''bold'''?
+Or have it '''''both ways'''''?
+<strike>strikethru</strike>
+
+How about a link to [[Welcome|Home]]?
+
+== Here is a big heading ==

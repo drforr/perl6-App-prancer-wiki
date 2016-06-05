@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Wiki: Welcome Visitors</title>
+	</head>
+	<body bgcolor=#FFFFFF link=#d06040 vlink=#806040>
+<ul>
+  <li>Content indexed ByName under /wiki.cgi?PageNameHere</li>
+  <li>Search from /search.cgi?search=PageNameHere</li>
+</ul>
+
+<ul>
+  <li>Title (not WikiCased)</li>
+  <li>Content</li>
+  <ul>
+    <li>Everything WikiCase is linked.</li>
+  </ul>
+  <li>"Last Edited" tag at the bottom</li>
+  <li>"Return to $last-page-visited" at the very bottom</li>
+</ul>
+
+Follow <a href="/wiki.cgi?WikiCase">WikiCase</a> to see what happens.
+<!--
+		<table width=600 cellspacing=0 cellpadding=0>
+			<tr>
+				<td align=center valign=bottom width=90><img src=logo.gif></td>
+				<td width=528><h1><a href=search.cgi?search=WelcomeVisitors>Welcome Visitors</a></h1></td>
+			</tr>
+			<tr>
+				<td align=center valign=top><font size=-1></font></td>
+				<td>This site supports the open source distribution of wiki and discussion related to the book, The <a href="wiki.cgi?WikiWay">WikiWay</a>, by your hosts, <a href="wiki.cgi?BoLeuf">BoLeuf</a> and <a href="wiki.cgi?WardCunningham">WardCunningham</a>.<p><UL>
+				<li> <a href="wiki.cgi?WhatIsWiki">WhatIsWiki</a><li> <a href="wiki.cgi?TheBook">TheBook</a><li> <a href="wiki.cgi?TheAuthors">TheAuthors</a><li> <a href="wiki.cgi?TheSoftware">TheSoftware</a><li> <a href=wiki.cgi?TheSites>TheSites</a><li> <a href=wiki.cgi?CommentAskDiscuss>CommentAskDiscuss</a><p></UL>
+				<strong>Search this site:</strong> <form action=search.cgi>
+				<input type="text" size="40" name="search">
+				<input type="submit" value="Search">
+				</form>
+				<p><strong>About this site:</strong><UL>
+				<li> <a href=wiki.cgi?WhosWho>WhosWho</a><li> <a href="http://wiki.org/changes.cgi">http://wiki.org/changes.cgi</a></UL>
+				<p>&nbsp;</td>
+			</tr>
+			<tr>
+				<td align=center></td>
+				<td align=left valign=top>Last edited June 9, 2002<br>
+				Return to <a href=wiki.cgi?WelcomeVisitors>WelcomeVisitors</a></td>
+			</tr>
+		</table>
+-->
+		<p>Last edited <TMPL_VAR NAME=last_edited></p>
+	</body>
+</html>

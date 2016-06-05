@@ -1,0 +1,7 @@
+<TMPL_IF NAME=logged_in>
+<p>Logged in as <TMPL_VAR NAME="username"></p>
+<p><a href="/logout">Log out</a></p>
+<TMPL_ELSE>
+<a href="/login.html">Log in</a>
+</TMPL_IF>
+<hr/>
